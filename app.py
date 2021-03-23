@@ -9,7 +9,7 @@ app = Flask(__name__)
 loop = asyncio.get_event_loop()
 
 #botsettings = BotFrameworkAdapterSettings("","")
-botsettings = BotFrameworkAdapterSettings(""DAA1020Projectclientsecret"")
+botsettings = BotFrameworkAdapterSettings(""DAA1020Projectclientsecret,2075aaab-b1e3-44b9-9924-5e87d4a70f3c"")
 botadapter = BotFrameworkAdapter(botsettings)
 
 CONMEMORY = ConversationState(MemoryStorage())
